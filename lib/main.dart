@@ -27,7 +27,7 @@ class Homepage extends StatelessWidget {
       body: Center(child: ElevatedButton(onPressed: () async {
         await Downloader.getDownloadedData(
           "sundarampal.github.io",
-          "/myjsonfiles/Newsquizess.json",
+          "/myjsonfiles/simple.json",
         );
       },
           child: const Text("Get Data"),
